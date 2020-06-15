@@ -22,8 +22,9 @@ header {
     position: fixed;
     width: 100%;
 }
-.logo {
-    width: 90px;
+.logo-header {
+    padding: 5px;
+    margin-top: 15px;
 }
 .navbar ul {
     display: flex;
@@ -41,6 +42,7 @@ header {
 .navbar ul li:hover {
     opacity: 1;
     background-color: rgb(23, 44, 238);
+    cursor: pointer;
 }
 /* container */
 .container {
@@ -74,6 +76,7 @@ header {
     font-weight: bold;
     font-size: 24px;
     text-align: center;
+    margin-bottom: 10px;
 }
 h2 {
     color: black;
@@ -143,6 +146,22 @@ footer {
     .img-pro {
         margin-top: 30px;
     }
+    .container {
+        text-align: center;
+    }
+}
+/* star */
+.star {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+.fa {
+    color: black;
+    padding: 5px;
+}
+.checked {
+    color: orange;
 }
 /* for desktop */
 @media only screen and (min-width: 992px) {
